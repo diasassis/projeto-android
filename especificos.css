@@ -42,6 +42,14 @@
     font-weight: bold;
 }
 
+.link:hover {
+    text-decoration: underline;
+}
+
+.link::after {
+    content: '\00A0\1F517';
+}
+
 .fonte-branca {
     color: white;
     font-weight: bolder;
