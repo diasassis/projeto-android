@@ -1,0 +1,173 @@
+.titulo-cabecalho {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-shadow: 1px 0.4px 1px rgba(0, 0, 0, 0.411);
+    font-weight: 300;
+    padding: 20px;
+}
+
+.paragrafo-cabecalho {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(250, 236, 236, 0.849);
+    text-shadow: 0px 1px 0px rgba(0, 0, 0, 0.164);
+    font-size: 13px;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navegacao a {
+    padding: 8px;
+}
+
+.navegacao a:hover {
+    background-color: #11f587a2;
+    transition-duration: .6s;
+}
+
+.link-branco {
+    color: rgba(255, 255, 255, 0.918);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.fonte-verde, .link {
+    color: green;
+    font-weight: bold;
+}
+
+.fonte-branca {
+    color: white;
+    font-weight: bolder;
+}
+
+.titulo-conteudo-principal {
+    padding: 15px;
+}
+
+.paragrafo-main {
+    text-indent: 30px;
+    padding: 15px;
+}
+
+.subtitulo-primeiro {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 5px;
+    margin: 15px;
+    background-image: linear-gradient(to right, #10e07b73, #10e07b48, #10e07b15);
+}
+
+.subtitulo-segundo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+    padding: 5px;
+    margin: 15px;
+    background-image: linear-gradient(to right, #10e07b73, #10e07b48, #10e07b15);
+}
+
+.imagem {
+    width: 100%;
+}
+
+.video {
+    background-color: rgb(45, 82, 45);
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+.video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.bugdroid {
+    display: block;
+    margin: auto;
+}
+
+.rodape {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+.titulo-rodape {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin: 10px 10px 0 10px;
+    padding: 5px;
+    background-color: rgb(9, 172, 77);
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.caixa-rodape {
+    background-color: #c2e6c6;
+    border-radius: 0 0 5px 5px;
+    padding: 20px;
+    margin: -8px 10px 10px 10px;
+}
+
+.lista {
+    list-style-position: inside;
+    list-style-type: '\2714\00A0\00A0';
+    columns: 2;
+    width: 100%;
+}
+
+.paragrafo-rodape {
+    text-indent: 30px;
+    padding: 5px;
+}
+
+.paragrafo-ultimo {
+    text-indent: 30px;
+    padding: 0px 15px 15px 15px;
+}
+
+.paragrafo-credito {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    color: rgba(255, 255, 255, 0.795);
+    background-color: #04542E;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 360px) {
+    .navegacao {
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 329px) {
+    .titulo-cabecalho {
+        font-size: 26px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    header, .paragrafo-credito {
+        width: 300px;
+    }
+}

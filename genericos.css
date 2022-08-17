@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'idroid';
+    src: url('fonte-icone/idroid.otf') format('opentype');
+}
+
+body {
+    background-color: #9AEBA3;
+}
+
+h1, h2 {
+    font-family: 'idroid';
+    color: green;
+}
+
+header {
+    background-image: linear-gradient(to top, #04542E, #09BA65, #10e07cbd);
+    height: 180px;
+}
+
+main, footer {
+    background-color: white;
+    box-shadow: 0px 1px 5px #00000047;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+}
+
